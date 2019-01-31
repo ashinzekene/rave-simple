@@ -4,7 +4,8 @@
   "description": "Framework/library agnostic flutterwave's rave web wrapper",
   "main": "rave.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:run": "cypress run",
+    "test": "concurrently \"http-server\" \"cypress run\""
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,11 @@
   },
   "homepage": "https://github.com/ashinzekene/rave-simple#readme",
   "devDependencies": {
+    "concurrently": "^4.1.0",
+    "cypress": "^3.1.5",
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.16.0",
+    "http-server": "^0.11.1"
   }
 }

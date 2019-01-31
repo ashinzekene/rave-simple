@@ -25,7 +25,7 @@ const Rave = ({ test = false } = {}) => {
     script.src = test ? RAVE_TEST_URL : RAVE_LIVE_URL;
   });
 
-  const setConfig = (config) => {
+  const addOptions = (config) => {
     instanceConfig = { ...instanceConfig, ...config };
   };
 
@@ -40,7 +40,7 @@ const Rave = ({ test = false } = {}) => {
 
   return {
     init,
-    setConfig,
+    addOptions,
     pay,
     close,
   };
