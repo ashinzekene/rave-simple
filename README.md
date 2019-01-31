@@ -2,6 +2,7 @@
 ![rave-simple bundle size](https://badgen.net/bundlephobia/min/rave-simple) 
 ![MIT](https://badgen.net/badge/license/MIT/blue)
 ![NPM](https://badgen.net/npm/v/rave-simple)
+[![Build Status](https://travis-ci.com/ashinzekene/rave-simple.svg?token=NZ9bRAtxPTjYc4NsqPws&branch=master)](https://travis-ci.com/ashinzekene/rave-simple)
 
 <1kb Framework/Library agnostic rave wrapper
 
