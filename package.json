@@ -1,0 +1,34 @@
+{
+  "name": "rave-simple",
+  "version": "0.0.1",
+  "description": "Framework/library agnostic flutterwave's rave web wrapper",
+  "main": "rave.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashinzekene/rave-simple.git"
+  },
+  "keywords": [
+    "transactions",
+    "payments",
+    "rave",
+    "flutterwave",
+    "angular",
+    "vue",
+    "react",
+    "money"
+  ],
+  "author": "Ashinze Ekene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashinzekene/rave-simple/issues"
+  },
+  "homepage": "https://github.com/ashinzekene/rave-simple#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
